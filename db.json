@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "api": [
+    {
+      "name": "Yosimar",
+      "lastname": "Valencia",
+      "birthday": "2023-02-07T05:00:00.000Z",
+      "address": "Cali",
+      "gender": "Male",
+      "age": 24,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "nn",
+      "lastname": "nn",
+      "datetime": "2023-02-07T05:00:00.000Z",
+      "address": "ddd",
+      "gender": "Male",
+      "age": 2
+    }
+  ]
+}

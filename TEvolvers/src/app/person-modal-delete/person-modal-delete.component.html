@@ -1,0 +1,19 @@
+<div mat-dialog-title>
+    <h1>Delete person</h1>
+</div>
+
+<form [formGroup]="personForm" (ngSubmit)="onFormDeleteSubmit()">
+    <div mat-dialog-content class="message">
+        <p>Are you sure to delete </p>
+        <input matInput type="text" formControlName="name" readonly>
+        <input matInput type="text" formControlName="lastname" readonly>
+        <p>?</p>
+        
+        <input matInput type="text" formControlName="id" class="hidden">
+        
+    </div>
+    <div mat-dialog-actions class="actions">
+        <button mat-raised-button color="warn" type="button" [mat-dialog-close]="false">Cancel</button>
+<button mat-raised-button color="primary">Delete</button>
+    </div>
+</form>

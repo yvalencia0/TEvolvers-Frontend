@@ -1,0 +1,28 @@
+.actions{
+    padding: 0px 25px 20px;
+    button{
+        flex: 1;
+    }
+}
+
+.message{
+    display: flex;
+    flex-wrap: wrap;
+    p{
+        padding-top: 15px;
+        margin-right: 20px;
+        font-size: 18px;
+        height: 50px;
+        text-align: center;
+    }
+    input{
+        font-size: 18px;
+        font-weight: bold;
+        width: 80px;
+        height: 50px;
+    }
+}
+
+.hidden{
+    display: none;
+}

@@ -1,0 +1,29 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.main-body{
+  padding-top: 20px;
+  width: 80%;
+  margin: auto;
+  mat-form-field{
+    width: 100%;
+  }
+}
+
+.table-container{
+  width: 95%;
+  margin: auto;
+}
+
+td,th{
+  width: 12.5%;
+}
+
+.pages{
+  margin-top: 15px;
+  padding: 10px;
+  button{
+    margin-left: 10px;
+  }
+}
